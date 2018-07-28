@@ -70,6 +70,12 @@
 	<key>readme</key>
 	<string>Launch WinMerge using Wine
 
+Download
+———————————————————————
+
+https://github.com/hidsh/WinMerge.alfredworkflow/releases
+
+
 Font
 ———————————————————————
 
@@ -113,6 +119,6 @@ Tested
 		</dict>
 	</dict>
 	<key>webaddress</key>
-	<string></string>
+	<string>https://github.com/hidsh/WinMerge.alfredworkflow/releases</string>
 </dict>
 </plist>
