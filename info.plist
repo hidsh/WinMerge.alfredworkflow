@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string></string>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>connections</key>
+	<dict>
+		<key>15299C7A-CDEA-4359-8898-446F2892DB7C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6E9FD584-C7EB-4FE8-96BB-F12E2A8DD3A3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>hidsh</string>
+	<key>description</key>
+	<string>Launch WinMerge using Wine</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>WinMerge</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>winmerge</string>
+				<key>subtext</key>
+				<string>Launch WinMerge using Wine</string>
+				<key>text</key>
+				<string>WinMerge</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>15299C7A-CDEA-4359-8898-446F2892DB7C</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string>/Applications/Wine Stable.app</string>
+				<key>sourcefile</key>
+				<string>~/Dropbox/env/mac/alfred/Alfred.alfredpreferences/workflows/WinMerge-.alfredworkflow/WinMerge/WinMergeU.exe</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>6E9FD584-C7EB-4FE8-96BB-F12E2A8DD3A3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>Launch WinMerge using Wine
+
+Font
+———————————————————————
+
+IPAGothic, IPAMonaUIGothic	
+
+
+Registry
+———————————————————————
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\FontSubstitutes]
+"MS Shell Dlg"="IPAMonaUIGothic"
+
+[HKEY_CURRENT_USER\Software\Wine\Mac Drive]
+"RetinaMode"="y"
+
+
+anti-aliasing
+———————————————————————
+
+https://askubuntu.com/questions/29552/how-do-i-enable-font-anti-aliasing-in-wine
+
+
+Tested
+———————————————————————
+
+		Wine.app			3.0.2
+        	WinMergeU.exe	2.14.0
+        	Alfred			2.9
+		macOS Sierra		10.12.6</string>
+	<key>uidata</key>
+	<dict>
+		<key>15299C7A-CDEA-4359-8898-446F2892DB7C</key>
+		<dict>
+			<key>ypos</key>
+			<real>60</real>
+		</dict>
+		<key>6E9FD584-C7EB-4FE8-96BB-F12E2A8DD3A3</key>
+		<dict>
+			<key>ypos</key>
+			<real>60</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>
